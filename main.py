@@ -9,22 +9,38 @@
 # If  n is even and greater than 20, print Not Weird
 
 
-import math
-import os
-import random
-import re
-import sys
+# import math
+# import os
+# import random
+# import re
+# import sys
 
 
 
-n = int(input('>>>)').strip())
+# n = int(input('>>>)').strip())
 
-if n % 2 != 0:
-    print ("Weird")
-else:
-    if n >= 2 and n <= 5 and n % 2 == 0:
-        print ("Not Weird")
-    elif n >= 6 and n <= 20 and n % 2 == 0:
-        print ("Weird")
-    elif n > 20 and n % 2 == 0:
-        print ("Not Weird")
+# if n % 2 != 0:
+#     print ("Weird")
+# else:
+#     if n >= 2 and n <= 5 and n % 2 == 0:
+#         print ("Not Weird")
+#     elif n >= 6 and n <= 20 and n % 2 == 0:
+#         print ("Weird")
+#     elif n > 20 and n % 2 == 0:
+#         print ("Not Weird")
+
+
+
+#  Task
+# The provided code stub reads two integers from STDIN, a and b . Add code to print three lines where:
+
+#  The first line contains the sum of the two numbers.
+#  The second line contains the difference of the two numbers (first - second).
+#  The third line contains the product of the two numbers.
+# Example
+
+
+a = int(input())
+b = int(input())
+print(a+b)
+print(a*b)
